@@ -1,0 +1,44 @@
+<!-- formlar veri giris alanlarini kapsayici bir yapi
+ <input /> veri giris alani etiketi,
+input etiketlerini paragraf etiketi icerisinde sayfada daha
+duzenli durmasi icin verdik bu duzenlemeler aslinda css 
+ile yapilir,radio da iki secenegi birden secilmesini istemedigimizde inputa name veririz,
+multiple name oldugunda birden fazla option secilebilir -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VakifBank</title>
+    <link rel="stylesheet" href="forms.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Caprasimo&family=Caveat:wght@500&family=Dancing+Script:wght@600&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@300&family=Ysabeau+SC:wght@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div>
+      <h1>GİRİŞ</h1>
+      <form id="giris">
+        <p>Ad: <input type="text" /></p>
+        <p>Soyad: <input type="text" /></p>
+        <p>E-posta: <input type="email" /></p>
+        <p>Parola: <input type="password" /></p>
+        <button class="btn">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          Kaydet
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
